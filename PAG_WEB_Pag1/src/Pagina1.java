@@ -24,9 +24,9 @@ private JFrame frame2;
 		
 			JButton Boton_Usuario = new JButton("");
 			Boton_Usuario.setBounds(473, 11, 30, 30);
-            Boton_Usuario.setBorderPainted(false);
-            Boton_Usuario.setContentAreaFilled(false);
-            Boton_Usuario.setFocusPainted(false);
+                        Boton_Usuario.setBorderPainted(false);
+                        Boton_Usuario.setContentAreaFilled(false);
+                        Boton_Usuario.setFocusPainted(false);
 			ImageIcon img5 = new ImageIcon(this.getClass().getResource("/Usuario .png"));
 			Boton_Usuario.setIcon(img5);
 			Panel_Buscador.add(Boton_Usuario);
@@ -40,7 +40,7 @@ private JFrame frame2;
 			Panel_Buscador.add(Boton_Modelos);
 			
 			JButton Boton_MenuBarras = new JButton("");
-		    Boton_MenuBarras.setBounds(10, 11, 30, 30);
+		        Boton_MenuBarras.setBounds(10, 11, 30, 30);
 			Boton_MenuBarras.setOpaque(true);
 			Boton_MenuBarras.setBorderPainted(false); //aca
 			Boton_MenuBarras.setContentAreaFilled(false); //aca
@@ -101,17 +101,14 @@ private JFrame frame2;
 			Boton_Explorar .setBounds(176, 120, 166, 23); 
 			Label_Fondo.add(Boton_Explorar);
 		
-				JLabel lblNewLabel = new JLabel("Merlo Molina Rolon Salgueiro");
-				lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-				lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 15));
-				lblNewLabel.setBounds(164, 248, 194, 19);
-				lblNewLabel.setForeground(new Color(240, 248, 255));
-				Label_Fondo.add(lblNewLabel);
-				
-	
+			JLabel lblNewLabel = new JLabel("Merlo Molina Rolon Salgueiro");
+			lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
+			lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 15));
+			lblNewLabel.setBounds(164, 248, 194, 19);
+			lblNewLabel.setForeground(new Color(240, 248, 255));
+			Label_Fondo.add(lblNewLabel);
 	        
 	        frame2.setVisible(true);
-		
 				
 		}
 	}
